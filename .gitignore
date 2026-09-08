@@ -1,0 +1,88 @@
+# ============================================================
+# .gitignore - Data Mining & Machine Learning Python Project
+# ============================================================
+
+# Internal Academic Guidelines, Rubrics & Presentation Scripts (Private/Local)
+scripts/
+YOUTUBE-PLAYLIST-GUIDE.md
+Rubrik-Penilaian.md
+RPS-Data-Mining.md
+PANDUAN-PRESENTASI-EXCEL.md
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDEs and Code Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Large Datasets & Data Cache
+# (Dataset diunduh langsung via kagglehub atau disimpan di Google Drive)
+*.csv
+data/
+*.parquet
+*.feather
+*.h5
+*.pkl
+
+# Kaggle / Secrets
+kaggle.json
+*.key
+*.pem
+*.secret
+.env
+
+# Scratch / Temporary Test Files
+scratch/
+tmp/
+temp/
+*.tmp
+*.log
